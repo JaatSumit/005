@@ -147,7 +147,7 @@ button:active{
 }
 .about-text p:nth-child(2){
 	color: #3e3d3d;
-	font-size: 13px;
+	font-size: 10px;
 	font-family: myriad pro;
 	font-weight: bold;
 	line-height:5px;
@@ -157,7 +157,7 @@ button:active{
 .about-text p:nth-child(4)
 {color:7e7d7d;
 font-family:calibri;
-font-size:16px; 
+font-size:14px; 
 }
 .about-text button{
 	width: 120px;
