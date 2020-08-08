@@ -99,12 +99,12 @@ nav ul li a {
 }
 .hire-btn{
 	border: 2px solid #373636;
-	color: #373636;
+	color: cornflowerblue;
 
 }
 .dow-cv{
 	background-color: #0b0b0b;
-	color: #FFFFFF;
+	color: cornflowerblue;
 	border: none;
 
 }
@@ -162,11 +162,11 @@ font-size:16px;
 .about-text button{
 	width: 120px;
 	height: 40px;
-	color: #FFFFFF;
+	color: cornflowerblue;
 	outline: none;
 	border: none;
 	font-family: calibri;
-	background-color: #262525;
+	background-color:cornflowerblue ;
 }
 
 .services{

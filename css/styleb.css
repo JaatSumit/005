@@ -4,9 +4,86 @@ body{
 	padding: 0px;
 
 }
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	background-color:#FFFFFF;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	padding: 0px 5%;
+}
+nav ul{
+	display: flex;
+}
+.toggle{
+	display: none;
+}
+.logo{
+
+	font-family:RoadTest;
+	color:#000000;
+	font-size: 22px;
+}
+
+.active{
+	font-weight: bold;
+	color: #2d2a2a;
+
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+section{
+	width: 100%;
+	height: 95vh;
+	background-image: url(../image/background2.png);
+	background-repeat: repeat;
+	background-size: cover;
+	position: relative;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	background-color:#FFFFFF;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	padding: 0px 5%;
+}
+nav ul{
+	display: flex;
+}
+.toggle{
+	display: none;
+}
+nav ul li a {
+	margin: 30px;
+	font-family: myrid pro regular;
+	color: #505050;
+	font-size: 15px;
+	font-weight: 700;
+
+}
+.logo{
+
+	font-family:RoadTest;
+	color:#000000;
+	font-size: 22px;
+}
+
+.active{
+	font-weight: bold;
+	color: #2d2a2a;
+
+}
+
 .about-container{
 	width: 80%;
-	height: 330px;
+	height: 430px;
 	background-color: #FFFFFF;
 	border-radius: 20px;
 	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
@@ -52,8 +129,49 @@ font-size:16px;
 	outline: none;
 	border: none;
 	font-family: calibri;
-	background-color: #262525;
+	background-color: cornflowerblue;
 }
+.a-social-b a:hover i
+			{ 
+			color: #FFFFFF;
+			transition: all ease 0.5s;
+			}
+.a-social-b
+			{
+			position: fixed;
+			top:50%;
+			right: 0px;
+			transform: translateY(-50%);
+			}
+.a-social-b a
+	{ 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	padding: 0px;
+	margin: 0px;
+	line-height: 0px;
+	background-color: #FFFFFF;
+	border:solid #cbcbcb;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	}
+.a-social-b i
+			{ 
+			color:#2b2b2b;
+			font-size:20px;
+			}
+
+			.social-icons a:hover,
+.a-social-b a:hover
+				 {
+					background-color: #000000;
+					box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+					transition: all ease 0.5s;
+
+				}
+.social-icons a:hover i,
 .a-social-b a:hover i
 			{ 
 			color: #FFFFFF;
@@ -105,6 +223,13 @@ font-size:16px;
 			{
 			margin: 5px;
 			}
+			.toggle.active:before{
+	content:'\f00d';
+	position: fixed;
+	right: 25px;
+	line-height: 0px;
+
+}
 .about-container
 			{
 			width: 90%;
