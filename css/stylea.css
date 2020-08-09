@@ -313,7 +313,7 @@ footer p{
 	
 }
 footer p:nth-child(1){
-	font-size:30px;
+	font-size:18px;
 	font-weight: bold;
 	color:#191919;
 	line-height:10px;
