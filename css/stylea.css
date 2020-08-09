@@ -421,7 +421,8 @@ footer p:nth-child(2)
 			}
 .about-container image: 
 			{
-			height: 180px
+			height: 180px;
+			justify-content: center;
 			}
 .about-text	{
 			width: 350px;

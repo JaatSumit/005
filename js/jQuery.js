@@ -89,7 +89,6 @@ var isWindow = function isWindow( obj ) {
 		return obj != null && obj === obj.window;
 	};
 
-
 var document = window.document;
 
 
