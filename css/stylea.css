@@ -141,13 +141,13 @@ button:active{
 	color:#403e3e;
 	font-family: myriad pro;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 22px;
 	line-height: 0px;
 	 
 }
 .about-text p:nth-child(2){
 	color: #3e3d3d;
-	font-size: 10px;
+	font-size: 14px;
 	font-family: myriad pro;
 	font-weight: bold;
 	line-height:5px;
@@ -157,7 +157,7 @@ button:active{
 .about-text p:nth-child(4)
 {color:7e7d7d;
 font-family:calibri;
-font-size:14px; 
+font-size:16px; 
 }
 .about-text button{
 	width: 120px;
@@ -416,7 +416,8 @@ footer p:nth-child(2)
 .about-container
 			{
 			width: 100%;
-			border-radius:10px;
+			border-radius:20px;
+			justify-content: center;
 
 			}
 .about-container image: 
@@ -425,7 +426,7 @@ footer p:nth-child(2)
 			justify-content: center;
 			}
 .about-text	{
-			width: 350px;
+			width: 250px;
 			}
 .about-text p:nth-child(1)
 			{
@@ -434,12 +435,13 @@ footer p:nth-child(2)
 			}
 .about-text p:nth-child(2)
 			{
-			font-size: 9px;
+			font-size: 10px;
 			}
 .about-text p:nth-child(3),
 .about-text p:nth-child(4)
 			{
 				font-size: 12px;
+				justify-content: center;
 			}
 .services	{
 			padding: 2% 5% 0px 5%;
@@ -540,7 +542,7 @@ nav.active ul{
 .about-container{
 	top:0px;
 	flex-direction: column;
-	width: 90%;
+	width: 95%;
 	height: auto;
 	padding:30px 0px;
 	align-items: center;
