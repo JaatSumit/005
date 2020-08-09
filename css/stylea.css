@@ -407,6 +407,7 @@ footer p:nth-child(2)
 .text-container
 			{
 			top:46%;
+			flex-grow: 1;
 			}
 .text-container button
 			{
@@ -416,6 +417,7 @@ footer p:nth-child(2)
 			{
 			width: 90%;
 			border-radius:10px;
+
 			}
 .about-container image: 
 			{
