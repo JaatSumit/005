@@ -415,16 +415,16 @@ footer p:nth-child(2)
 			}
 .about-container
 			{
-			width: 98%;
+			width: 100%;
 			border-radius:10px;
 
 			}
 .about-container image: 
 			{
-			height: 200px
+			height: 180px
 			}
 .about-text	{
-			width: 380px;
+			width: 350px;
 			}
 .about-text p:nth-child(1)
 			{
